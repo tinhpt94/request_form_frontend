@@ -25,6 +25,8 @@ class Editor extends Component {
 
         this.state = this._getState();
         this.handleContentChange = this.handleContentChange.bind(this);
+	this.showPreview = this.showPreview.bind(this);
+	this.hidePreview = this.hidePreview.bind(this);
     }
 
     _getState() {
