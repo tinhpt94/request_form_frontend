@@ -56,7 +56,7 @@ class Editor extends Component {
     render() {
         return (
             <div>
-		<FroalaEditor config={this.config}
+		<FroalaEditor config={this.state.config}
 			  model={this.state.content}
 			  onModelChange={this.handleModelChange}
 		/>
